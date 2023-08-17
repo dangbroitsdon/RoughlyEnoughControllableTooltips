@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "mixin": [
+    "roughlycontrollable.mixins.json",
+    "roughlycontrollable-common.mixins.json"
+  ],
+  "quilt_loader": {
+    "group": "${group}",
+    "id": "roughlycontrollable",
+    "version": "${version}",
+    "name": "Roughly Controllable",
+    "description": "Moves REI Tooltip with Controllable Virtual Cursor for Compat and QOL.",
+    "authors": ["dangbroitsdon"],
+    "contact": {
+      "sources": ""
+    },
+    "license": "MIT",
+    "icon": "assets/roughlycontrollable/icon.png",
+    "intermediate_mappings": "net.fabricmc:intermediary",
+    "environment": "*",
+    "entrypoints": {
+      "init": [
+        "io.dangbroitsdon.roughlycontrollable.quilt.RoughlyControllableQuiltMain"
+      ]
+    },
+    "depends": [
+      {
+        "id": "quilt_loader",
+        "version": "*"
+      },
+      {
+        "id": "quilt_base",
+        "version": "*"
+      },
+      {
+        "id": "minecraft",
+        "version": ">=1.18.2"
+      },
+      {
+        "id": "architectury",
+        "version": ">=4.11.91"
+      }
+    ]
+  }
+}

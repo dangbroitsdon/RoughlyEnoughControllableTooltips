@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "roughlycontrollable",
+  "version": "${version}",
+  "name": "Roughly Controllable",
+  "description": "Moves REI Tooltip with Controllable Virtual Cursor for QOL.",
+  "authors": [
+    "dangbroitsdon"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+  "license": "MIT",
+  "icon": "assets/roughlycontrollable/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.dangbroitsdon.roughlycontrollable.RoughlyControllableFabricMain"
+    ]
+  },
+  "mixins": [
+    "roughlycontrollable.mixins.json",
+    "roughlycontrollable-common.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.18.2",
+    "architectury": ">=4.11.91"
+  }
+}

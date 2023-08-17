@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "io.dangbroitsdon.roughlycontrollable.forge.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "client": [
+    "client.MixinScreenOverlayImplForge"
+  ],
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

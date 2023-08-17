@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[40,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "roughlycontrollable"
+version = "${version}"
+displayName = "Roughly Controllable"
+authors = "dangbroitsdon"
+description = '''
+Moves REI Tooltip with Controllable Virtual Cursor for Compat and QOL.
+'''
+logoFile = ""
+
+[[dependencies.roughlycontrollable]]
+modId = "forge"
+mandatory = true
+versionRange = "[40,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.roughlycontrollable]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.18.2,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.roughlycontrollable]]
+modId = "architectury"
+mandatory = true
+versionRange = "[4.11.91,)"
+ordering = "AFTER"
+side = "BOTH"

@@ -1,5 +1,5 @@
 # Roughly Controllable
-Mixin mod to fix REI Tooltips rendering in the middle of the inventory or wherever the actual cursor was when using Controllable Virtual Mouse on 1.18.2, also for Compat &amp; QOL. Made for myself while modpack testing. Please don't upload this onto CurseForge or Modrinth without my permission first.
+Mixin mod to fix REI Tooltips rendering in the middle of the inventory or wherever the actual cursor was when using Controllable Virtual Mouse on 1.18.2, also for Compat &amp; QOL. Made for myself while modpack testing.
 
 They aren't listed as dependencies but it obviously requires Controllable by MrCrayfish and RoughlyEnoughItems (REI) by shedaniel.
 

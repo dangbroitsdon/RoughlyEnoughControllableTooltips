@@ -5,7 +5,10 @@ They aren't listed as dependencies but it obviously requires Controllable by MrC
 
 
 WITH MOD:
+
 ![mod](https://cdn.upload.systems/uploads/8O1tkL0c.gif)
 
 WITHOUT MOD:
-![without](https://cdn.upload.systems/uploads/pb0wyAAV.gif)
+
+![8tUv3ydE](https://github.com/dangbroitsdon/RoughlyControllable/assets/65779562/af4d41eb-3728-456a-bbf6-34862b7ab88f)
+

@@ -3,6 +3,8 @@ Mixin mod to fix REI Tooltips rendering in the middle of the inventory or wherev
 
 They aren't listed as dependencies but it obviously requires Controllable by MrCrayfish and RoughlyEnoughItems (REI) by shedaniel.
 
+This is specifically for Forge 1.18.2, the reason it's based on Architectury is in case Controllable gets backported to 1.18.2 on Fabric. If the issue exists on either platforms, make an issue, and I'll backport or port to that ver.
+
 DISCLAIMER: rei's plugin compat should probably be able to replace this entire mod, however as said in its description, it's rather hacky and could cause complications, as such in my case. this is more or less a straightforward fix for those who don't want to muck around with it (rei plugin compat).
 
 

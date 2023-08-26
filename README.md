@@ -1,7 +1,7 @@
 # Roughly Enough Controllable Tooltips
 Are you on Forge 1.18.2? Are you currently using Controllable because your trackpad does 7 360s after moving it one millimeter? Do you enjoy the silky smooth interface of RoughlyEnoughItems but hate that the tooltips for Controllable's Virtual Mouse don't move along with it when viewing items? Well, disregard the trackpad part because Roughly Enough Controllable Tooltips is for you!
 
-Roughly Enough Controllable Tooltips is a extremely simple mixin-based mod that fixes REI Tooltips rendering where your mouse cursor was when using Controllable's Virtual Mouse Cursor, designed for Compat &amp; QOL. It was primarily made for myself while modpack testing but I wanted to add an offset amount and share it for those that wanted to use it.
+Roughly Enough Controllable Tooltips is an extremely simple mixin-based mod that fixes REI Tooltips rendering where your mouse cursor was when using Controllable's Virtual Mouse Cursor, designed for Compat &amp; QOL. It was primarily made for myself while modpack testing but I wanted to add an offset amount and share it for those that wanted to use it.
 
 ## Controllable by MrCrayfish, Roughly Enough Items (REI), and Architectury by shedaniel are REQUIRED!
 

@@ -3,7 +3,7 @@ architectury {
 }
 
 loom {
-    accessWidenerPath = file("src/main/resources/roughlycontrollable.accesswidener")
+    accessWidenerPath = file("src/main/resources/rect.accesswidener")
 }
 
 dependencies {

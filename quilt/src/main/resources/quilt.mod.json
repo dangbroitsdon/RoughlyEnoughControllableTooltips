@@ -1,26 +1,26 @@
 {
   "schema_version": 1,
   "mixin": [
-    "roughlycontrollable.mixins.json",
-    "roughlycontrollable-common.mixins.json"
+    "rect.mixins.json",
+    "rect-common.mixins.json"
   ],
   "quilt_loader": {
     "group": "${group}",
-    "id": "roughlycontrollable",
+    "id": "rect",
     "version": "${version}",
-    "name": "Roughly Controllable",
+    "name": "Roughly Enough Controllable Tooltips",
     "description": "Moves REI Tooltip with Controllable Virtual Cursor for Compat and QOL.",
     "authors": ["dangbroitsdon"],
     "contact": {
       "sources": ""
     },
     "license": "MIT",
-    "icon": "assets/roughlycontrollable/icon.png",
+    "icon": "assets/roughlyenoughcontrollabletooltips/icon.png",
     "intermediate_mappings": "net.fabricmc:intermediary",
     "environment": "*",
     "entrypoints": {
       "init": [
-        "io.dangbroitsdon.roughlycontrollable.quilt.RoughlyControllableQuiltMain"
+        "io.dangbroitsdon.roughlyenoughcontrollabletooltips.quilt.RoughlyControllableQuiltMain"
       ]
     },
     "depends": [

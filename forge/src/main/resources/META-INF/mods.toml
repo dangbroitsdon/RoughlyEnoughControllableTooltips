@@ -4,32 +4,46 @@ loaderVersion = "[40,)"
 license = "MIT"
 
 [[mods]]
-modId = "roughlycontrollable"
+modId = "rect"
 version = "${version}"
-displayName = "Roughly Controllable"
+displayName = "Roughly Enough Controllable Tooltips (RECT)"
 authors = "dangbroitsdon"
 description = '''
 Moves REI Tooltip with Controllable Virtual Cursor for Compat and QOL.
 '''
 logoFile = ""
 
-[[dependencies.roughlycontrollable]]
+[[dependencies.rect]]
 modId = "forge"
 mandatory = true
 versionRange = "[40,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.roughlycontrollable]]
+[[dependencies.rect]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.18.2,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.roughlycontrollable]]
+[[dependencies.rect]]
 modId = "architectury"
 mandatory = true
 versionRange = "[4.11.91,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.rect]]
+modId = "controllable"
+mandatory = true
+versionRange = "[0.17.0,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.rect]]
+modId = "roughlyenoughitems"
+mandatory = true
+versionRange = "[8.3.642,)"
 ordering = "AFTER"
 side = "BOTH"

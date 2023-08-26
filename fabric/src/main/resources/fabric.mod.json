@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "roughlycontrollable",
+  "id": "rect",
   "version": "${version}",
-  "name": "Roughly Controllable",
+  "name": "Roughly Enough Controllable Tooltips (RECT)",
   "description": "Moves REI Tooltip with Controllable Virtual Cursor for QOL.",
   "authors": [
     "dangbroitsdon"
@@ -12,16 +12,16 @@
     "sources": ""
   },
   "license": "MIT",
-  "icon": "assets/roughlycontrollable/icon.png",
+  "icon": "assets/roughlyenoughcontrollabletooltips/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "io.dangbroitsdon.roughlycontrollable.RoughlyControllableFabricMain"
+      "io.dangbroitsdon.roughlyenoughcontrollabletooltips.fabric.RECTFabricMain"
     ]
   },
   "mixins": [
-    "roughlycontrollable.mixins.json",
-    "roughlycontrollable-common.mixins.json"
+    "rect.mixins.json",
+    "rect-common.mixins.json"
   ],
   "depends": {
     "fabric": "*",

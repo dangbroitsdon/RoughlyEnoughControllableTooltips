@@ -14,8 +14,8 @@ loom {
         convertAccessWideners = true
         extraAccessWideners.add loom.accessWidenerPath.get().asFile.name
 
-        mixinConfig "roughlycontrollable-common.mixins.json"
-        mixinConfig "roughlycontrollable.mixins.json"
+        mixinConfig "roughlycontrollabletooltips-common.mixins.json"
+        mixinConfig "roughlycontrollabletooltips.mixins.json"
     }
 }
 
